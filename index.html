@@ -53,6 +53,52 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <tr onmouseout="kcgg_stop()" onmouseover="kcgg_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle;">
+            <div class="one">
+              <div class="two" id='kcgg_image'><video  width=100% muted autoplay loop>
+                <source src="images/kcgg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </div>
+              <img src='images/kcgg.png'  width=100%>
+            </div>
+            <script type="text/javascript">
+              function kcgg_start() {
+                document.getElementById('kcgg_image').style.opacity = "1";
+              }
+    
+              function kcgg_stop() {
+                document.getElementById('kcgg_image').style.opacity = "0";
+              }
+              kcgg_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <!-- <a href="https://ieeexplore.ieee.org/document/10606072"> -->
+              <span class="papertitle">Learning Diverse Robot Striking Motions with Diffusion Models and Kinematically Constrained Gradient Guidance</span>
+            </a>
+            <br>
+            
+            <strong>Kin Man Lee*</strong>,
+            Sean Ye,
+            Qingyu Xiao,
+            Zixuan Wu,
+            Zulfiqar Zaidi,
+            David B. D'Ambrosio,
+            Pannag R. Sanketi,
+            Matthew Gombolay
+
+            <br>
+            <em>Under Review</em>
+            <br>
+            <a href="https://arxiv.org/abs/2409.15528">ArXiv</a>
+            <p></p>
+            <p>
+            We introduce kinematic constraint gradient guidance (KCGG) for constrained diffusion sampling of diverse striking behavior, evaluated on a real-time table tennis robot.
+            </p>
+          </td>
+        </tr>
+
         <tr onmouseout="hetgat_ppo_stop()" onmouseover="hetgat_ppo_start()">
           <td style="padding:20px;width:25%;vertical-align:middle;">
             <div class="one">
