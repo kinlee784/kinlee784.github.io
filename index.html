@@ -22,17 +22,12 @@
                 <p class="name" style="text-align: center;">
                   Kin Man Lee
                 </p>
-                <p>I'm a Robotics PhD Student in the School of Interactive Computing at Georgia Tech. I'm part of the <a href="https://core-robotics.gatech.edu/">CORE Robotic Lab</a>, directed by <a href="https://www.cc.gatech.edu/people/matthew-gombolay">Prof. Matthew Gombolay</a>.
+                <p>I'm a 2nd year Robotics PhD Student in the School of Interactive Computing at Georgia Tech. I'm part of the <a href="https://core-robotics.gatech.edu/">CORE Robotic Lab</a>, directed by <a href="https://www.cc.gatech.edu/people/matthew-gombolay">Prof. Matthew Gombolay</a>.
                   Before starting my PhD, I completed my M.S. in Robotics at Georgia Tech and my B.S. in Computer Engineering at the University of Illinois at Urbana-Champaign. I've also spent several years as a software engineer specializing in autonomous vehicle technology.
                 </p> 
-                <!-- <p>
-                  My research interests lie broadly between the intersection of machine learning, controls, and human-robot interaction. I am particularly interested in developing methods for robots to learn agile motions that can actively adapt to human heterogeneity. 
-                  I look forward to a future where humans and robots can work together seamlessly in everyday tasks and aspire to contribute towards making this vision a reality!
-                </p> -->
                 <p style="text-align:center">
                   <a href="mailto:klee863@gatech.com">Email</a> &nbsp;|&nbsp;
                   <!-- <a href="data/KinMan-CV.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?user=RucZv3wAAAAJ&hl=en">Google Scholar</a> &nbsp;|&nbsp;
                   <a href="https://twitter.com/KinManLee7">Twitter</a> &nbsp;|&nbsp;
                   <a href="https://linkedin.com/in/kinman-lee/">LinkedIn</a> &nbsp;|&nbsp;
@@ -57,6 +52,52 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr onmouseout="hetgat_ppo_stop()" onmouseover="hetgat_ppo_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle;">
+            <div class="one">
+              <div class="two" id='hetgat_ppo_image'>
+              <img src='images/hetgat_ppo.png'  width=100%>
+              </div>
+              <img src='images/hetgat_ppo.png'  width=100%>
+            </div>
+            <script type="text/javascript">
+              function hetgat_ppo_start() {
+                document.getElementById('hetgat_ppo_image').style.opacity = "1";
+              }
+    
+              function hetgat_ppo_stop() {
+                document.getElementById('hetgat_ppo_image').style.opacity = "0";
+              }
+              hetgat_ppo_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://ieeexplore.ieee.org/document/10606072">
+              <span class="papertitle">Heterogeneous Policy Networks for Composite Robot Team Communication and Coordination</span>
+            </a>
+            <br>
+            
+            Esmaeil Seraj*,
+            Rohan Paleja*,
+            Luis Pimentel,
+            <strong>Kin Man Lee</strong>,
+            Zheyuan Wang,
+            Daniel Martin,
+            Matthew Sklar,
+            John Zhang,
+            Zahi Kakish,
+            Matthew Gombolay
+
+            <br>
+            <em>IEEE Transactions on Robotics (T-RO)</em>, 2024
+            <br>
+            <p></p>
+            <p>
+            We introduce Heterogenous Policy Networks (HetNet), a graph-attention MARL framework for learning coordination and communication strategies for heterogeneous multi-agent teams.
+            </p>
+          </td>
+        </tr>
 
         <tr onmouseout="int_rl_review_stop()" onmouseover="int_rl_review_start()">
           <td style="padding:20px;width:25%;vertical-align:middle;">
