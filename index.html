@@ -57,8 +57,59 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="tt_doubles_stop()" onmouseover="tt_doubles_start()" bgcolor="#ffffd0">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='tt_doubles_image'><video  width=100% muted autoplay loop>
+                  <source src="images/tt_doubles.gif" type="video/gif">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/tt_doubles.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function tt_doubles_start() {
+                    document.getElementById('tt_doubles_image').style.opacity = "1";
+                  }
+        
+                  function tt_doubles_stop() {
+                    document.getElementById('tt_doubles_image').style.opacity = "0";
+                  }
+                  tt_doubles_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://dl.acm.org/doi/10.1145/3568162.3577002">
+                  <span class="papertitle">The Effect of Robot Skill Level and Communication in Rapid, Proximate Human-Robot Collaboration </span>
+                </a>
+                <br>
+                
+                <strong>Kin Man Lee*</strong>,
+                Arjun Krishna*,
+                Zulfiqar Zaidi,
+                Rohan Paleja,
+                Letian Chen,
+                Erin Hedlund,
+                Mariah, Schrum,
+                Matthew Gombolay
+    
+                <br>
+                <em>International Conference on Human-Robot Interaction (HRI)</em>, 2023
+                <br>
+                <!-- <a href="https://core-robotics-lab.github.io/Wheelchair-Tennis-Robot/">Project page</a>
+                / -->
+                <a href="https://dl.acm.org/doi/10.1145/3568162.3577002">Paper</a>
+                <p></p>
+                <p>
+                We develop an safe robotic table tennis system for studying agile, proximate human-robot collaboration and conduct a human-subject experiment to assess how attributes of the robot
+                can impact team dynamics, perceived safety, perceived trust, and overall team performance.
+                </p>
+              </td>
+            </tr>
+
+
+
         <tr onmouseout="esther_stop()" onmouseover="esther_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
+          <td style="padding:10px;width:25%;vertical-align:middle">
             <div class="one">
               <div class="two" id='esther_image'><video  width=100% muted autoplay loop>
               <source src="images/esther.mp4" type="video/mp4">
@@ -108,7 +159,7 @@
             Matthew Gombolay
 
             <br>
-            <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2024
+            <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2023
             <br>
             <a href="https://core-robotics-lab.github.io/Wheelchair-Tennis-Robot/">Project page</a>
             /
@@ -124,7 +175,7 @@
             <tr>
               <td style="padding:0px">
                 <br>
-                <p style="text-align:right;font-size:small;">
+                <p style="text-align:center;font-size:small;">
                   Adapted from <a href="https://jonbarron.info/">Jon Barron</a>'s <a href="https://github.com/jonbarron/jonbarron_website">template</a>. 
                 </p>
               </td>
